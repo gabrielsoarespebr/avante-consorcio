@@ -1,0 +1,29 @@
+header {
+  background: linear-gradient(var(--corSecundaria), var(--corPrimaria));
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1vh 4vw;
+
+  & img {
+    width: 12%;
+  }
+
+  & ul {
+    display: flex;
+    gap: 1vw;
+    font-size: 150%;
+
+    & li {
+      color: var(--corTerciaria);
+
+      transition: ease-in-out .5s;
+
+      &:hover{
+        color: var(--corBotaoSecundaria);
+      }
+    }
+  }
+}
