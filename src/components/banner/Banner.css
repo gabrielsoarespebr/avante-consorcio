@@ -1,8 +1,9 @@
 #banner {
   padding: 5vh 4vw;
 
-  background: url("../../assets/images/bannerPlanoDeFundo.jpg");
-  background-size: contain;
+  background: url("../../assets/images/bannerPlanoDeFundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 
   & > div {
     height: 60vh;
