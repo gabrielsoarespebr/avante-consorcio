@@ -1,11 +1,12 @@
 import "./App.css";
 import logo from "./assets/images/logo.png";
+import { Banner } from "./components/banner/Banner";
 
 function App() {
   return (
     <>
       <header>
-        <img src={logo} alt="Avante logotipo"/>
+        <img src={logo} alt="Avante logotipo" />
 
         <ul id="redesSociais">
           <li>
@@ -17,15 +18,13 @@ function App() {
             </a>
           </li>
           <li>
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-            >
+            <a href="https://www.instagram.com" target="_blank">
               <i className="fa-brands fa-instagram"></i>
             </a>
           </li>
         </ul>
       </header>
+      <Banner />
     </>
   );
 }

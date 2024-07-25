@@ -1,0 +1,40 @@
+#banner {
+  padding: 5vh 4vw;
+
+  background: url("../../assets/images/bannerPlanoDeFundo.jpg");
+  background-size: contain;
+
+  & > div {
+    height: 60vh;
+  }
+
+  & img {
+    width: 50vw;
+    max-height: 60vh;
+
+    object-fit: contain;
+  }
+
+  & button {
+    background: var(--corSecundaria);
+
+    width: 35vw;
+    padding: 3vh;
+    color: white;
+
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+
+    margin-bottom: 2vh;
+
+    &:hover {
+      background: var(--corPrimaria);
+    }
+  }
+}
+
+.escondeImagem {
+  display: none;
+
+  transition: ease-in-out 1s;
+}

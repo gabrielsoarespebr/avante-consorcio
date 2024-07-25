@@ -15,17 +15,50 @@
   --corTexto: #0c387c;
   --corPrimaria: #33406b;
   --corSecundaria: #656f9f;
-  --corTerciaria: #F0F0F1;
+  --corTerciaria: #f0f0f1;
   --corBotaoPrimaria: #846835;
   --corBotaoSecundaria: #ddc385;
-  --corFundoPrimaria: #e9efff;
-  --corFundoSecundaria: #ffffff;
+  --corFundo: #e9efff;
 }
 
 /* CUSTOM CSS */
 body {
   font-size: 1.4rem;
   font-family: "Blinker", Arial, sans-serif;
+}
+
+.fonteTitulo {
+  font-family: "Puritan", Arial, sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.botaoCta {
+  display: block;
+
+  margin: auto;
+  margin-top: 5vh;
+  
+  background: linear-gradient(90deg,
+    var(--corBotaoPrimaria),
+    var(--corBotaoSecundaria)
+  );
+
+  width: 50vw;
+  padding: 3vh;
+  color: white;
+
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+
+  margin-bottom: 2vh;
+
+  &:hover {
+    opacity: 0.9;
+  }
 }
 
 @media screen and (max-width: 768px) {
