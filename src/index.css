@@ -40,8 +40,9 @@ body {
 
   margin: auto;
   margin-top: 5vh;
-  
-  background: linear-gradient(90deg,
+
+  background: linear-gradient(
+    90deg,
     var(--corBotaoPrimaria),
     var(--corBotaoSecundaria)
   );
@@ -59,6 +60,16 @@ body {
   &:hover {
     opacity: 0.9;
   }
+}
+
+.divisor {
+  background: linear-gradient(
+    90deg,
+    var(--corBotaoPrimaria),
+    var(--corBotaoSecundaria)
+  );
+
+  height: .4rem;
 }
 
 @media screen and (max-width: 768px) {
