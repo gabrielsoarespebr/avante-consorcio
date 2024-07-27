@@ -1,5 +1,6 @@
 import "./App.css";
 import logo from "./assets/images/logo.png";
+import { About } from "./components/about/About";
 import { Banner } from "./components/banner/Banner";
 import { Partners } from "./components/partners/Partners";
 import { Divider } from "./components/shared/Divider";
@@ -27,6 +28,8 @@ function App() {
         </ul>
       </header>
       <Banner />
+      <Divider/>
+      <About/>
       <Divider/>
       <Partners/>
     </>

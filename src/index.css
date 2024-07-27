@@ -25,6 +25,8 @@
 body {
   font-size: 1.4rem;
   font-family: "Blinker", Arial, sans-serif;
+
+  background-color: var(--corFundo);
 }
 
 .fonteTitulo {
@@ -69,7 +71,7 @@ body {
     var(--corBotaoSecundaria)
   );
 
-  height: .4rem;
+  height: 0.4rem;
 }
 
 @media screen and (max-width: 768px) {
