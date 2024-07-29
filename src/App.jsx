@@ -40,8 +40,20 @@ function App() {
       <Divider />
       <Credibility />
       <Divider />
-      <Faq/>
+      <Faq />
       <Divider />
+      <footer className="text-center font-semibold py-4">
+        Avante &copy; Todos os direitos reservados
+      </footer>
+
+      <a
+        href="https://api.whatsapp.com/send/?phone=558198477398&text&type=phone_number&app_absent=0"
+        target="_blank"
+        aria-label="Entrar em contato pelo WhatsApp"
+        title="Entrar em contato pelo WhatsApp"
+      >
+        <i className="fa-brands fa-whatsapp" id="whatsappIcone"></i>
+      </a>
     </>
   );
 }
