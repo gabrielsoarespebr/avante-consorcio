@@ -4,33 +4,13 @@
   color: var(--corPrimaria);
 }
 
-.passoBorda {
-  padding: 0.5rem;
-
+.passo {
   background: linear-gradient(
     90deg,
     var(--corBotaoPrimaria),
     var(--corBotaoSecundaria)
   );
-}
-
-.passoNumero {
-  position: absolute;
-
-  background: var(--corBotaoSecundaria);
-
-  right: 0;
-  top: 0;
-
-  padding: .2rem 1.5rem .6rem 1.7rem;
-
-  font-size: 170%;
-}
-
-.passo {
-  position: relative;
-
-  background-color: var(--corFundo);
+  color: white;
 
   display: flex;
   justify-content: space-between;
@@ -39,10 +19,24 @@
   height: 28vh;
   width: 28.5vw;
 
-  &>img {
+  & > div {
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-    transform: translateX(-9%);
+    font-size: 105%;
+
+    padding: 1rem;
+    padding-right: 0;
+
+    & > p:first-of-type {
+      font-size: 140%;
+    }
+  }
+
+  & > img {
+    height: 100%;
 
     object-fit: contain;
   }

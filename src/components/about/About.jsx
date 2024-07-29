@@ -9,35 +9,42 @@ export const About = () => {
     <section id="about" className="text-white">
       <p className="fonteTitulo mb-10">Como funciona?</p>
       <ul className="flex justify-between">
-        <li className="passoBorda">
-          <div className="passo">
+        <li className="passo">
+          <div>
             <p className="passoNumero">1</p>
-            <img src={mulherComoFunciona1} alt="Mulher" />
             <p>
-              A Avante te ajuda a encontrar <span className="font-semibold">o consórcio ideal</span>.
+              A Avante te ajuda a encontrar{" "}
+              <span className="font-semibold">o consórcio ideal</span>.
             </p>
           </div>
+          <img src={mulherComoFunciona1} alt="Mulher" />
         </li>
-        <li className="passoBorda">
-          <div className="passo">
+
+        <li className="passo">
+          <div>
             <p className="passoNumero">2</p>
-            <img src={mulherComoFunciona2} alt="Mulher" />
             <p>
-              Você paga as mensalidades e <span className="font-semibold">torce para ser contemplado</span>.
+              Você paga as mensalidades e{" "}
+              <span className="font-semibold">torce para ser contemplado</span>.
             </p>
           </div>
+          <img src={mulherComoFunciona2} alt="Mulher" />
         </li>
-        <li className="passoBorda">
-          <div className="passo">
+
+        <li className="passo">
+          <div>
             <p className="passoNumero">3</p>
-            <img src={mulherComoFunciona3} alt="Mulher" />
             <p>
-            <span className="font-semibold">Você é contemplado na assembleia</span> por lance ou sorteio.
+              <span className="font-semibold">
+                Você é contemplado na assembleia
+              </span>{" "}
+              por lance ou sorteio.
             </p>
           </div>
+          <img src={mulherComoFunciona3} alt="Mulher" />
         </li>
       </ul>
-      <Cta/>
+      <Cta />
     </section>
   );
 };
