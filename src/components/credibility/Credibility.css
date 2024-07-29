@@ -1,0 +1,37 @@
+#credibility {
+  padding: 5vh 4vw;
+
+  background: url("../../assets/images/bannerPlanoDeFundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  & ul>a {
+    width: 49%;
+  }
+}
+
+.noticia {
+  padding: 2rem;
+
+  background: linear-gradient(
+    90deg,
+    var(--corBotaoPrimaria),
+    var(--corBotaoSecundaria)
+  );
+
+  & img {
+    margin-top: 2vh;
+
+    filter: brightness(2);
+
+    margin-left: auto;
+  }
+
+  & p {
+    font-size: 130%;
+  }
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
