@@ -3,7 +3,23 @@
 
   color: var(--corPrimaria);
 
-  & li{
-    width: 30%
+  & li {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #competitiveEdge {
+    padding: 5vh;
+
+    & > ul {
+      flex-direction: column;
+
+      gap: 5vh;
+
+      & > li {
+        width: 100% !important;
+      }
+    }
   }
 }

@@ -39,3 +39,30 @@
 
   transition: ease-in-out 1s;
 }
+
+@media screen and (max-width: 768px) {
+  #banner {
+    padding: 5vh;
+
+    & > div {
+      flex-direction: column;
+
+      text-align: center;
+    }
+
+    & img {
+      width: 70vw;
+      margin: auto;
+      margin-bottom: 3vh;
+    }
+
+    & p:last-of-type{
+      margin-top: 5vh;
+    }
+  }
+
+  & button {
+    width: 100% !important;
+    padding: 2vh !important;
+  }
+}

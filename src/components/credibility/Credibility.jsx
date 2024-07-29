@@ -4,7 +4,7 @@ import credibilidadeFolha from "../../assets/images/credibilidadeFolha.png";
 
 export const Credibility = () => {
   return (
-    <section id="credibility" className="text-white">
+    <section id="credibilidade" className="text-white">
       <p className="fonteTitulo mb-10">Consórcio vale a pena?</p>
       <ul className="flex justify-between">
         <a
@@ -21,7 +21,7 @@ export const Credibility = () => {
           href="https://www1.folha.uol.com.br/mercado/2023/06/com-restricao-no-credito-consorcio-passa-a-atrair-publico-mais-jovem.shtml"
           target="_blank"
         >
-          <li className="noticia">
+          <li className="noticia mb-7">
             <i className="fa-solid fa-quote-left"></i>
             <p>
               Com restrição no crédito, consórcio passa a atrair público mais

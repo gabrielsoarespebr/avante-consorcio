@@ -78,4 +78,8 @@ body {
   body {
     font-size: 1rem;
   }
+
+  .botaoCta {
+    width: 100%;
+  }
 }

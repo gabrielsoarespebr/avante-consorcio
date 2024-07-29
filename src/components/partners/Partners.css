@@ -9,7 +9,7 @@
 
   overflow: hidden;
 
-  &>img{
+  & > img {
     width: 60%;
 
     margin: auto;
@@ -32,7 +32,7 @@
 #parceiroLista1 {
   animation: 20s slide1 infinite linear;
 
-  &>li:last-of-type{
+  & > li:last-of-type {
     margin-right: 1.5vw;
   }
 }
@@ -56,5 +56,19 @@
   }
   to {
     transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #partners {
+    padding: 5vh;
+    padding-bottom: 0;
+
+    & > img {
+      width: 100%;
+
+      margin: auto;
+      margin-top: 30vw;
+    }
   }
 }

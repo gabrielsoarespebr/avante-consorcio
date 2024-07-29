@@ -1,11 +1,11 @@
-#credibility {
+#credibilidade {
   padding: 5vh 4vw;
 
   background: url("../../assets/images/bannerPlanoDeFundo.png");
   background-size: cover;
   background-repeat: no-repeat;
 
-  & ul>a {
+  & ul > a {
     width: 49%;
   }
 }
@@ -33,5 +33,20 @@
 
   &:hover {
     opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #credibilidade {
+    padding: 5vh;
+
+    & ul {
+      flex-direction: column;
+      gap: 5vh;
+    }
+
+    .noticia {
+      width: 80vw;
+    }
   }
 }

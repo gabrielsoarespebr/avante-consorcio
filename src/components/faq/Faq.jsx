@@ -6,7 +6,7 @@ export const Faq = () => {
   return (
     <section id="faq" className="text-white">
       <p className="fonteTitulo mb-10">Perguntas frequentes</p>
-      <div className="flex gap-5">
+      <div className="flex items-end gap-5">
         <img src={mulher} alt="Mulher" />
         <div>
           <div id="perguntasLista">

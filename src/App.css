@@ -77,6 +77,19 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    padding: 2vh 5vh;
+
+    & img {
+      width: 40%;
+    }
+
+    & ul {
+      gap: 5vw;
+      font-size: 230%;
+    }
+  }
+
   #whatsappIcone {
     right: 2.2rem;
     bottom: 3.2rem;
