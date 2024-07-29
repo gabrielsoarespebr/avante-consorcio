@@ -2,6 +2,7 @@ import "./App.css";
 import logo from "./assets/images/logo.png";
 import { About } from "./components/about/About";
 import { Banner } from "./components/banner/Banner";
+import { CompetitiveEdge } from "./components/competitive-edge/CompetitiveEdge";
 import { Partners } from "./components/partners/Partners";
 import { Divider } from "./components/shared/Divider";
 
@@ -32,6 +33,8 @@ function App() {
       <About/>
       <Divider/>
       <Partners/>
+      <Divider/>
+      <CompetitiveEdge/>
     </>
   );
 }
