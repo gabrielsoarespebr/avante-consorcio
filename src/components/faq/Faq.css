@@ -1,0 +1,20 @@
+#faq {
+  padding: 5vh 4vw 0 4vw;
+
+  color: var(--corPrimaria);
+
+  & img {
+    width: 30%;
+  }
+
+  & summary {
+    cursor: pointer;
+  }
+}
+
+#perguntasLista {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2vh;
+}

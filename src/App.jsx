@@ -4,6 +4,7 @@ import { About } from "./components/about/About";
 import { Banner } from "./components/banner/Banner";
 import { CompetitiveEdge } from "./components/competitive-edge/CompetitiveEdge";
 import { Credibility } from "./components/credibility/Credibility";
+import { Faq } from "./components/faq/Faq";
 import { Partners } from "./components/partners/Partners";
 import { Divider } from "./components/shared/Divider";
 
@@ -38,6 +39,9 @@ function App() {
       <CompetitiveEdge />
       <Divider />
       <Credibility />
+      <Divider />
+      <Faq/>
+      <Divider />
     </>
   );
 }
